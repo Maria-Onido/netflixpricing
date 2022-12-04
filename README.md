@@ -10,7 +10,7 @@ Netflix is a streaming service that offers a wide variety of award-winning TV sh
 On 'www.comparitech.com/blog/vpn-privacy/countries-netflix-cost/', there are a variety of data concerning netflix pricing across countries. For simplicity's sake, we choose the first table containing 12 random countries consisting of netflix prices with ads, one of those countries including Canada.
 
 # Scraping GST Data From Source 
-On 'https://taxsummaries.pwc.com/quick-charts/value-added-tax-vat-rates', there consists of data involving VAT rated across countries. We will aggregate the VAT rates so that we could get a sense the full price with taxes in each country. 
+The website, 'https://taxsummaries.pwc.com/quick-charts/value-added-tax-vat-rates', consists of data involving VAT rated across countries. We will aggregate the VAT rates so that we could get a sense the full price with taxes in each country. 
 
 # Joining Netflix Data with GST Data
 
