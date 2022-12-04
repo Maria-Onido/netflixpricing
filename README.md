@@ -10,3 +10,7 @@ Netflix is a streaming service that offers a wide variety of award-winning TV sh
 On 'www.comparitech.com/blog/vpn-privacy/countries-netflix-cost/', there are a variety of data concerning netflix pricing across countries. For simplicity's sake, we choose the first table containing 12 random countries consisting of netflix prices with ads, one of those countries including Canada. 
 
 # Tidying Up the Data 
+After scraping, we needed to so some data cleaning for the data to be interpretable for analysis. 
+1. We dropped the unneccesarry columns.  
+2. We split Prices Local into prices and currency codes. 
+3. Dropped Brazil after some research as the VAT in the country is very complex. 
