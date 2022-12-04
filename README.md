@@ -8,3 +8,4 @@ Netflix is a streaming service that offers a wide variety of award-winning TV sh
 
 # Scraping Netflix Data From Source
 On 'www.comparitech.com/blog/vpn-privacy/countries-netflix-cost/', there are a variety of data concerning netflix pricing across countries. 
+theme: minima
