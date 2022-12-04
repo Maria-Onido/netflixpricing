@@ -1,3 +1,3 @@
-# netflixpricing
+# Netflix Pricing 
 
 This class sucks
