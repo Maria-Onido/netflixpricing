@@ -12,9 +12,12 @@ On 'www.comparitech.com/blog/vpn-privacy/countries-netflix-cost/', there are a v
 # Scraping GST Data From Source 
 The website, 'https://taxsummaries.pwc.com/quick-charts/value-added-tax-vat-rates', consists of data involving VAT rated across countries. We will aggregate the VAT rates so that we could get a sense the full price with taxes in each country. 
 
+# Tidying Up GST Data
+
 # Joining Netflix Data with GST Data
 
-# Tidying GST Data 
+
+# Tidying Our Combined Data 
 After scraping, we needed to so some data cleaning for the data to be interpretable for analysis. 
 1. We dropped the unneccesarry columns.  
 2. We split Prices Local into prices and currency codes. 
