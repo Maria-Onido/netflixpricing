@@ -25,3 +25,5 @@ After scraping, we needed to so some data cleaning for the data to be interpreta
 1. We dropped the unneccesarry columns.  
 2. We split Prices Local into prices and currency codes. 
 3. Dropped Brazil after some research as the VAT in the country is very complex. 
+
+theme: minima
