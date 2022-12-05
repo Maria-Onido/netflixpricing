@@ -15,13 +15,10 @@ The website, 'https://taxsummaries.pwc.com/quick-charts/value-added-tax-vat-rate
 # Tidying Up GST Data
 In order to combine our data, we had to have a common table for the join function to work. 
 
-First, we had to change the way the column "Territory" is formatted. It included when the country's vat was las reviewed. Purely for Analysis, we did not need that, so we had to get rid of that. 
-
-Next, we renamed "Territory" into "Country" 
-
-Lastly, we created a temporary common in both tables without any spaces between the country names so that it will be completely identical. 
+Thus, we had to change the way the column "Territory" is formatted. It included when the country's vat was las reviewed. Purely for Analysis, we did not need that, so we had to get rid of it. We then relabeled "Territory" into "Country". From this, we created a temporary common in both tables without any spaces between the country names so that it will be completely identical. 
 
 # Joining Netflix Data with GST Data
+As we join our netflix table with our gst table, the countries in our netflix table only remained because it is the only country that is in common with the gst table. 
 
 # Tidying Our Combined Data 
 After scraping, we needed to so some data cleaning for the data to be interpretable for analysis. 
