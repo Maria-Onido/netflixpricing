@@ -13,10 +13,12 @@ On 'www.comparitech.com/blog/vpn-privacy/countries-netflix-cost/', there are a v
 The website, 'https://taxsummaries.pwc.com/quick-charts/value-added-tax-vat-rates', consists of data involving VAT rated across countries. We will aggregate the VAT rates so that we could get a sense the full price with taxes in each country. 
 
 # Tidying Up GST Data
-In order to combine our data, we had to have a "common table" for the join function to work. 
+In order to combine our data, we had to have a common table for the join function to work. 
+First, we had to change the way the column "Territory" is formatted. It included when the country's vat was las reviewed. Purely for Analysis, we did not need that, so we had to get rid of that. 
+Next, we renamed "Territory" into "Country" 
+Lastly, we created a temporary common in both tables without any spaces between the country names so that it will be completely identical. 
 
 # Joining Netflix Data with GST Data
-
 
 # Tidying Our Combined Data 
 After scraping, we needed to so some data cleaning for the data to be interpretable for analysis. 
