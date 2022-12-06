@@ -49,5 +49,7 @@ This data set also needed some cleaning so that we can interpret and analyze it.
 As you can see South korea has the highest internet usage at 95.1 and Italy has the lowest at 65.1. 
 
 # Plotting the Correlation Between the Differences and Internet Usage Per Country
+
 * Insert scatter plot 
+
 As you can see, there is a weak negative correlation between the differences and internet usage per country. This means generally, there is a slight trend that as the internet usage goes up, the price fof netflix goes down. However, this does not imply causation as there are confounding factors that might be present in each country. 
