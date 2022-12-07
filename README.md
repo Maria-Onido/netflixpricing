@@ -47,9 +47,8 @@ We gathered the csv file with this Data from 'https://www.kaggle.com/datasets/ta
 Upon reading this table, we only selected the necessar columns for analysis. 
 
 ## Cleaning Internet Usage Per Country Data 
-This data set also needed some cleaning so that we can interpret and analyze it. We cleaned the 'Percentage' column by getting rid of the % and other excess information. We then turned what we had left into a float. 
-* Insert Internet Usage Per Country Bar Chart 
-
+This data set also needed some cleaning so that we can interpret and analyze it. We cleaned the 'Percentage' column by getting rid of the % and other excess information. We then turned whatever we had left into a float. 
+![percentage](internet_percentage.png "Percentage") 
 As you can see South korea has the highest internet usage at 95.1 and Italy has the lowest at 65.1. 
 
 ## Plotting the Correlation Between the Differences and Internet Usage Per Country
