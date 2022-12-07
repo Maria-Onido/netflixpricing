@@ -35,8 +35,6 @@ We converted all the prices with VAT rates added using a conversion function we 
 ## The Differences 
 Since all of the prices are now in the same units, we subtracted Canada's price with VAT from each of the countries. This is if you live in Canada, which country could you find the price for netflix the cheapest out of all the ones we have. 
 
-![barh](dog.png "Barh")
-
 As you can see South Korea is the only country that is in the negatives, meaning it is lower than Canada's price with taxes. The rest of the countries have prices higher than Canada. 
 
 ## External Factor - Internet Usage Per Country 
