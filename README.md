@@ -25,6 +25,8 @@ In order to combine our data, we had to have a common table for the join functio
 
 Thus, we had to change the way the column "Territory" is formatted in our gst table. It included when the country's vat was last reviewed. For Analysis, we didn't need that, so we had to get rid of it. We then removed all the white spaces between the territory names so that we have a temporary common column. We also added a temporary common column in our netflix table without the white spaces in the country names. This is so that it will be completely identical for our join function. 
 
+![code_one](26654CA6-8D21-43FD-BD7E-DFDFE4CD6ED9_4_5005_c.jpeg "Code1")
+
 ### Why? 
 "South Korea " is not the same as "South Korea" 
 
