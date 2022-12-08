@@ -53,7 +53,7 @@ This is the conversion function we used. It is inspired from a very similar func
 
 ![code_five](50E26EA2-F2E3-4152-A52C-2D3E5C777E6C_4_5005_c.jpeg "Code5") 
 
-We converted all the prices with VAT rates added using a conversion function we made. In this way all of the prices are all in the same units - Canadian Dollars. 
+To obtain a conversion to column, we had to make an array of 'CAD' the same length as our table. We converted all the prices with VAT rates added using a conversion function we made. In this way all of the prices are all in the same units - Canadian Dollars. 
 
 
 
