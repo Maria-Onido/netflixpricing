@@ -24,10 +24,13 @@ The website, 'https://taxsummaries.pwc.com/quick-charts/value-added-tax-vat-rate
 In order to combine our data, we had to have a common table for the join function to work. 
 
 Thus, we had to change the way the column "Territory" is formatted in our gst table. It included when the country's vat was last reviewed. For Analysis, we didn't need that, so we had to get rid of it. We then removed all the white spaces between the territory names so that we have a temporary common column. We also added a temporary common column in our netflix table without the white spaces in the country names. This is so that it will be completely identical for our join function. 
-![code_two](A4A0F750-7FCE-4A56-92DE-BFC413F98386_4_5005_c.jpeg "Code2")
+
 ![code_one](46957E22-D4BB-4CDF-BA33-27A2DD7EE9AF_4_5005_c.jpeg "Code1")
 
-###### Why? "South Korea " is not the same as "South Korea" 
+### Why? 
+"South Korea " is not the same as "South Korea" 
+
+* Insert Code
 
 
 ## Step 4: Joining Netflix and GST  
@@ -86,6 +89,8 @@ No, it does not imply causation. There are confounding factors involve.
 2. Netflix might introduce a new product feature that can up their price.
 3. Fluctuations in the economy. For Example, as fears of recession and cost of living goes up, some people might re-evaluate their expenses and this can affect the price of netflix. 
 * These are just examples, there's more that is involved. 
+
+## Conclusion 
 
 ### Citations
 
