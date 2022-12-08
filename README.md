@@ -51,7 +51,7 @@ Since all of the prices are now in the same units, we subtracted Canada's price 
 ### Price Differences From Candian Price 
 ![difference](difference.png "Difference")
 
-As you can see South Korea is the only country that is in the negatives, meaning it is lower than Canada's price with taxes. The rest of the countries have prices higher than Canada. 
+As you can see South Korea is the only country that is in the slight negatives, meaning it is lower than Canada's price with taxes. The rest of the countries have prices higher than Canada. 
 
 
 ## Step 9: External Factor - Internet Usage Per Country 
@@ -66,7 +66,7 @@ This data set also needed some cleaning. We cleaned the 'Percentage' column by g
 ### Internet Usage Percentage Per Country 
 ![percentage](internet_percentage.png "Percentage") 
 
-South korea has the highest internet usage at 95.1 and Italy has the lowest at 65.1. 
+South Korea has the highest internet usage at 95.1 and Italy has the lowest at 65.1. 
 
 
 ## Step 11: Plotting the Correlation Between the Differences and Internet Usage Per Country
@@ -74,7 +74,7 @@ South korea has the highest internet usage at 95.1 and Italy has the lowest at 6
 ### Correlation Between Prices Differences and Internet Usage Per Country 
 ![scatter](scatter.png "Scatter")  
 
-From the scatterplot, there is a weak negative correlation between the differences and internet usage per country. The correlation calculated by around -0.3). This means generally, there is a slight trend that as the internet usage goes up, the price fof netflix goes down. 
+From the scatterplot, there is a weak negative correlation between the differences and internet usage per country. The correlation calculated by around -0.3. This means that there is a slight trend that as the internet usage goes up, the price of netflix goes down. 
 
 ## Does this Imply Causation? 
 No, it does not imply causation. There are confounding factors involve. 
@@ -84,4 +84,4 @@ No, it does not imply causation. There are confounding factors involve.
 * These are just examples, there's more that is involved. 
 
 ### Citations
->>>>>>> 888a0027900e4c7fbc76970e754a28aa48481b1d
+
