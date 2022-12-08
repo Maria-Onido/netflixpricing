@@ -4,7 +4,7 @@ Authors: Maria Onido and Aditi Padhi
 ![This is an image](https://upload.wikimedia.org/wikipedia/commons/7/7a/Logonetflix.png "Netflix")
 
 ## Synopsis
-In economics, there’s a concept called purchasing power parity, in which there’s a theoretical exchange rate that allows you to buy the same amount of goods and services in every country.
+"In economics, there’s a concept called purchasing power parity, in which there’s a theoretical exchange rate that allows you to buy the same amount of goods and services in every country."
 
 
 ## Why Netflix? 
