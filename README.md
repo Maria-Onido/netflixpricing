@@ -15,6 +15,7 @@ Netflix is a streaming service that offers a wide variety of award-winning TV sh
 On 'www.comparitech.com/blog/vpn-privacy/countries-netflix-cost/', there are a variety of data concerning netflix pricing across countries. For simplicity's sake, we choose the first table containing 12 random countries consisting of netflix prices with ads, one of those countries including Canada.
 
 
+
 ## Step 2. GST Data
 The website, 'https://taxsummaries.pwc.com/quick-charts/value-added-tax-vat-rates', consists of data involving VAT rates across countries. We will aggregate the VAT rates to the netflic pricing data. 
 
@@ -22,10 +23,12 @@ The website, 'https://taxsummaries.pwc.com/quick-charts/value-added-tax-vat-rate
 ## Step 3: Creating a Temporary Common Column 
 In order to combine our data, we had to have a common table for the join function to work. 
 
-Thus, we had to change the way the column "Territory" is formatted in our gst table. It included when the country's vat was last reviewed. Purely for Analysis, we did not need that, so we had to get rid of it. We then relabeled "Territory" into "Country". From this, we created a temporary common column  so that it will be completely identical by removing all of the spaces in the country names.
+Thus, we had to change the way the column "Territory" is formatted in our gst table. It included when the country's vat was last reviewed. For Analysis, we didn't need that, so we had to get rid of it. We then removed all the white spaces between the territory names so that we have a temporary common column. We also added a temporary common column in our netflix table without the white spaces in the country names. This is so that it will be completely identical for our join function. 
 
 ### Why? 
 "South Korea " is not the same as "South Korea" 
+
+* Insert Code
 
 
 ## Step 4: Joining Netflix and GST  
