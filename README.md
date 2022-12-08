@@ -27,8 +27,8 @@ Thus, we had to change the way the column "Territory" is formatted in our gst ta
 
 ![code_two](A4A0F750-7FCE-4A56-92DE-BFC413F98386_4_5005_c.jpeg "Code2")
 ![code_one](46957E22-D4BB-4CDF-BA33-27A2DD7EE9AF_4_5005_c.jpeg "Code1")
-
-#### Why? "South Korea " is not the same as "South Korea" 
+#### Why? 
+"South Korea " is not the same as "South Korea" 
 
 ## Step 4: Joining Netflix and GST  
 As we join our netflix table with our gst table, the countries in our netflix table only remained because it is the only country that is in common with the gst table. We then dropped the temporary country column and kept the "Country" column from the netflix pricing table. 
