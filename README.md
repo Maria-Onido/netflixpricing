@@ -47,6 +47,7 @@ Our prices and VAT rates are now floats and are ready to work with. We multiplie
 
 ## Step 7: Converting Local Prices with VAT rates into Canadian Dollars 
 We converted all the prices with VAT rates added using a conversion function we made. In this way all of the prices are all in the same units - Canadian Dollars. 
+
 ![code_five](50E26EA2-F2E3-4152-A52C-2D3E5C777E6C_4_5005_c.jpeg "Code5") 
 
 
