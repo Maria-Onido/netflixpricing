@@ -71,7 +71,6 @@ South korea has the highest internet usage at 95.1 and Italy has the lowest at 6
 
 ## Plotting the Correlation Between the Differences and Internet Usage Per Country
 
-=======
 ### Correlation Between Prices Differences and Internet Usage Per Country 
 ![scatter](scatter.png "Scatter")  
 
