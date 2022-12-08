@@ -1,3 +1,4 @@
+theme: Cayman
 # Netflix Index 
 
 ![This is an image](https://upload.wikimedia.org/wikipedia/commons/7/7a/Logonetflix.png "Netflix")
@@ -105,4 +106,3 @@ So, if you want to buy a Netflix subscription at a cheaper price than Canada and
 ## Citations
 https://upload.wikimedia.org/wikipedia/commons/7/7a/Logonetflix.png
 
-theme: Cayman
