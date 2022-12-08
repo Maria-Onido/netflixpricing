@@ -12,33 +12,33 @@ Netflix is a streaming service that offers a wide variety of award-winning TV sh
 
 
 ## Step 1. Netflix Data 
-On 'www.comparitech.com/blog/vpn-privacy/countries-netflix-cost/', there are a variety of data concerning netflix pricing across countries. For simplicity's sake, we choose the first table containing 12 random countries consisting of netflix prices with ads, one of those countries including Canada.Upon getting this data, we only selected the necessary columns. 
+On 'www.comparitech.com/blog/vpn-privacy/countries-netflix-cost/', there are a variety of data concerning Netflix pricing across countries. For simplicity's sake, we choose the first table containing 12 random countries consisting of netflix prices with ads, one of those countries including Canada. Upon getting this data, we only selected the necessary columns. 
 
 
 
-## Step 2. GST Data
-The website, 'https://taxsummaries.pwc.com/quick-charts/value-added-tax-vat-rates', consists of data involving VAT rates across countries. We will aggregate the VAT rates to the netflic pricing data. 
+## Step 2. VAT Data
+The website, 'https://taxsummaries.pwc.com/quick-charts/value-added-tax-vat-rates', consists of data involving VAT rates across countries. We will aggregate the VAT rates to the Netflix pricing data. 
 
 
 ## Step 3: Creating a Temporary Common Column 
 In order to combine our data, we had to have a common table for the join function to work. 
 
-Thus, we had to change the way the column "Territory" is formatted in our gst table. It included when the country's vat was last reviewed. For Analysis, we didn't need that, so we had to get rid of it. We then removed all the white spaces between the territory names so that we have a temporary common column. We also added a temporary common column in our netflix table without the white spaces in the country names. This is so that it will be completely identical for our join function. 
+Thus, we had to change the way the column "Territory" is formatted in our VAT table. It included when the country's VAT was last reviewed. For Analysis, we didn't need that, so we had to get rid of it. We then removed all the white spaces between the territory names so that we have a temporary common column. We also added a temporary common column in our Netflix table without the white spaces in the country names. This is so that it will be completely identical for our join function. 
 
 ![code_two](A4A0F750-7FCE-4A56-92DE-BFC413F98386_4_5005_c.jpeg "Code2")
 ![code_one](46957E22-D4BB-4CDF-BA33-27A2DD7EE9AF_4_5005_c.jpeg "Code1")
 #### Why? 
 "South Korea " (with space at the end) is not the same as "South Korea" (without the space at the end). 
 
-## Step 4: Joining Netflix and GST  
-As we join our netflix table with our gst table, the countries in our netflix table only remained because it is the only country that is in common with the gst table. We then dropped the temporary country column and kept the "Country" column from the netflix pricing table. 
+## Step 4: Joining Netflix and VAT  
+As we join our Netflix table with our VAT table, the countries in our Netflix table only remained because it is the only country that is in common with the VAT table. We then dropped the temporary country column and kept the "Country" column from the Netflix pricing table. 
 
 
-## Step 5: Tyding up Combined Data 
+## Step 5: Tidying up Combined Data 
 After scraping, we needed to so some data cleaning for the data to be interpretable for analysis.   
-1. We split Prices Local into prices and currency codes.
+1. We split Prices Local column in our Netflix table into 2 columns; Prices and Currency Codes.
 2. Dropped Brazil after some research as the VAT in the country is very complex.
-3. Cleaned the 'Standard VAt rate %' column by determining the value base on the original column and some research.
+3. Cleaned the 'Standard VAT rate %' column by determining the value base on the original column and some research.
 ![code_four](5FCB0B27-C053-4931-AA17-50D9712DB4D4_1_201_a.jpeg "Code4")
 
 
@@ -59,7 +59,7 @@ To obtain a conversion to column, we had to make an array of 'CAD' the same leng
 
 
 ## Step 8: The Differences 
-Since all of the prices are now in the same units, we subtracted Canada's price with VAT from each of the countries. This is if you live in Canada, which country could you find the price for netflix the cheapest out of all the ones we have. We removed Canada because it is the country we are basing the difference from. 
+Since all of the prices are now in the same units, we subtracted Canada's price with VAT from each of the countries. This is if you live in Canada, which country could you find the price for Netflix the cheapest out of all the ones we have. We removed Canada because it is the country we are basing the difference from. 
 
 
 ### Price Differences From Candian Price 
@@ -69,13 +69,13 @@ As you can see South Korea is the only country that is in the slight negatives, 
 
 
 ## Step 9: External Factor - Internet Usage Per Country 
-Since netflix heavily involves access to the internet, we choosed the percentage of internet usgae per country for our external factor. 
+Since Netflix heavily involves access to the internet, we choosed the percentage of internet usage per country for our external factor. 
 We gathered the csv file with this Data from 'https://www.kaggle.com/datasets/tanuprabhu/list-of-countries-by-number-of-internet-users'. 
 Upon reading the csv file into a table, we only selected the necessary columns for analysis. 
 
 
 ## Step 10: Cleaning Internet Usage Per Country Data 
-This data set also needed some cleaning. We cleaned the 'Percentage' column by getting rid of the % and other excess information. We then turned whatever we had left into a float. 
+This data set also needed some cleaning. We cleaned the 'Percentage' column by getting rid of the % and other excess information. We then turned whatever we had left into a float type. 
 
 ### Internet Usage Percentage Per Country 
 ![percentage](internet_percentage.png "Percentage") 
@@ -88,13 +88,13 @@ South Korea has the highest internet usage at 95.1 and Italy has the lowest at 6
 ### Correlation Between Prices Differences and Internet Usage Per Country 
 ![scatter](scatter.png "Scatter")  
 
-From the scatterplot, there is a weak negative correlation between the differences and internet usage per country. The correlation calculated is around -0.3. This means that there is a slight trend that as the internet usage goes up, the price of netflix goes down. 
+From the scatterplot, there is a weak negative correlation between the differences and internet usage per country. The correlation calculated is around -0.3. This means that there is a slight trend that as the internet usage goes up, the price of Netflix goes down. 
 
 ## Does this Imply Causation? 
 No, it does not imply causation. There are confounding factors involve. 
 1. Number of movies available in each country can affect the subscription price.
 2. Netflix might introduce a new product feature that can up their price.
-3. Fluctuations in the economy. For Example, as fears of recession and cost of living goes up, some people might re-evaluate their expenses and this can affect the price of netflix. 
+3. Fluctuations in the economy. For Example, as fears of recession and cost of living goes up, some people might re-evaluate their expenses and this can affect the price of Netflix. 
 * These are just examples, there's more that is involved. 
 
 ## Conclusion
