@@ -1,4 +1,5 @@
-# Netflix Index
+# Netflix Index 
+Authors: Maria Onido and Aditi Apadhi 
 
 ![This is an image](https://upload.wikimedia.org/wikipedia/commons/7/7a/Logonetflix.png "Netflix")
 
