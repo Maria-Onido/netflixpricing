@@ -1,5 +1,4 @@
-
-# Netflix Index 
+# Netflix Index
 
 ![This is an image](https://upload.wikimedia.org/wikipedia/commons/7/7a/Logonetflix.png "Netflix")
 
