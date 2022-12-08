@@ -38,7 +38,8 @@ As we join our netflix table with our gst table, the countries in our netflix ta
 After scraping, we needed to so some data cleaning for the data to be interpretable for analysis.   
 1. We split Prices Local into prices and currency codes.
 2. Dropped Brazil after some research as the VAT in the country is very complex.
-3. Cleaned the 'Standard VAt rate %' column by getting rid of the excess info and converting what was left to a float type. 
+3. Cleaned the 'Standard VAt rate %' column by determining the value base on the original column and some research.
+![code_four](5FCB0B27-C053-4931-AA17-50D9712DB4D4_1_201_a.jpeg "Code4")
 
 
 ## Step 6: Calculating Local Prices with VAT rates 
