@@ -1,7 +1,7 @@
 theme: cayman
 # Netflix Index 
 
-![This is an image](https://upload.wikimedia.org/wikipedia/commons/7/7a/Logonetflix.png "Netflix")
+![This is an image](46957E22-D4BB-4CDF-BA33-27A2DD7EE9AF_4_5005_c.jpeg "Netflix")
 
 ## Synopsis
   In economics, there’s a concept called purchasing power parity, in which there’s a theoretical exchange rate that allows you to buy the same amount of goods and services in every country.
