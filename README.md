@@ -20,6 +20,7 @@ On 'www.comparitech.com/blog/vpn-privacy/countries-netflix-cost/', there are a v
 The website, 'https://taxsummaries.pwc.com/quick-charts/value-added-tax-vat-rates', consists of data involving VAT rates across countries. We will aggregate the VAT rates to the netflic pricing data. 
 
 
+
 ## Step 3: Creating a Temporary Common Column 
 In order to combine our data, we had to have a common table for the join function to work. 
 
@@ -30,8 +31,11 @@ Thus, we had to change the way the column "Territory" is formatted in our gst ta
 #### Why? 
 "South Korea " is not the same as "South Korea" 
 
+
+
 ## Step 4: Joining Netflix and GST  
-As we join our netflix table with our gst table, the countries in our netflix table only remained because it is the only country that is in common with the gst table. We then dropped the temporary country column and kept the "Country" column from the netflix pricing table. 
+As we join our netflix table with our gst table, the countries in our netflix table only remained because it is the only country that is in common with the gst table. We only selected specific columns, excluding the temporary columns we made. 
+![code_three](AAC03CD8-83D2-403F-A55C-4882BA0D6397_4_5005_c.jpeg "Code3")
 
 
 ## Step 5: Tyding up Combined Data 
