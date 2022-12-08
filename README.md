@@ -20,7 +20,6 @@ On 'www.comparitech.com/blog/vpn-privacy/countries-netflix-cost/', there are a v
 The website, 'https://taxsummaries.pwc.com/quick-charts/value-added-tax-vat-rates', consists of data involving VAT rates across countries. We will aggregate the VAT rates to the netflic pricing data. 
 
 
-
 ## Step 3: Creating a Temporary Common Column 
 In order to combine our data, we had to have a common table for the join function to work. 
 
@@ -31,20 +30,15 @@ Thus, we had to change the way the column "Territory" is formatted in our gst ta
 #### Why? 
 "South Korea " is not the same as "South Korea" 
 
-
-
 ## Step 4: Joining Netflix and GST  
-As we join our netflix table with our gst table, the countries in our netflix table only remained because it is the only country that is in common with the gst table. We only selected specific columns, excluding the temporary columns we made. 
-![code_three](AAC03CD8-83D2-403F-A55C-4882BA0D6397_4_5005_c.jpeg "Code3")
+As we join our netflix table with our gst table, the countries in our netflix table only remained because it is the only country that is in common with the gst table. We then dropped the temporary country column and kept the "Country" column from the netflix pricing table. 
 
 
 ## Step 5: Tyding up Combined Data 
 After scraping, we needed to so some data cleaning for the data to be interpretable for analysis.   
 1. We split Prices Local into prices and currency codes.
 2. Dropped Brazil after some research as the VAT in the country is very complex.
-3. Cleaned the 'Standard VAt rate %' column by assesing what the value of the VAT rate from the original column and doing some research. 
-!["Code_Four"](5FCB0B27-C053-4931-AA17-50D9712DB4D4_1_201_a.jpeg "Code4")
-
+3. Cleaned the 'Standard VAt rate %' column by getting rid of the excess info and converting what was left to a float type. 
 
 
 ## Step 6: Calculating Local Prices with VAT rates 
@@ -93,7 +87,10 @@ No, it does not imply causation. There are confounding factors involve.
 3. Fluctuations in the economy. For Example, as fears of recession and cost of living goes up, some people might re-evaluate their expenses and this can affect the price of netflix. 
 * These are just examples, there's more that is involved. 
 
-## Conclusion 
+## Conclusion
+In this assignment, we have learnt that a Netflix subscription is the cheapest in South Korea. 
+
+So, if you want to buy a Netflix subscription at a cheaper price than Canada and save some money every month, you should plan on moving to South Korea
 
 
 ## Citations
