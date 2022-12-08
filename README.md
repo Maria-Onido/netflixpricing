@@ -41,7 +41,7 @@ After scraping, we needed to so some data cleaning for the data to be interpreta
 Our prices and VAT rates are now floats and are ready to work with. We multiplied each price with the corresponding VAT percentage (as a decimal) and added that value to the original price. In this way we get an idea of how much you will eventually pay. 
 
 
-## Step 7: Coverting Local Prices with VAT rates into Canadian Dollars 
+## Step 7: Converting Local Prices with VAT rates into Canadian Dollars 
 We converted all the prices with VAT rates added using a conversion function we made. In this way all of the prices are all in the same units - Canadian Dollars. 
 
 
