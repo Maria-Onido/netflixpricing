@@ -1,7 +1,7 @@
 theme: cayman
 # Netflix Index 
 
-![This is an image](46957E22-D4BB-4CDF-BA33-27A2DD7EE9AF_4_5005_c.jpeg "Netflix")
+![This is an image](https://upload.wikimedia.org/wikipedia/commons/7/7a/Logonetflix.png "Netflix")
 
 ## Synopsis
   In economics, there’s a concept called purchasing power parity, in which there’s a theoretical exchange rate that allows you to buy the same amount of goods and services in every country.
@@ -25,7 +25,7 @@ In order to combine our data, we had to have a common table for the join functio
 
 Thus, we had to change the way the column "Territory" is formatted in our gst table. It included when the country's vat was last reviewed. For Analysis, we didn't need that, so we had to get rid of it. We then removed all the white spaces between the territory names so that we have a temporary common column. We also added a temporary common column in our netflix table without the white spaces in the country names. This is so that it will be completely identical for our join function. 
 
-![code_one](26654CA6-8D21-43FD-BD7E-DFDFE4CD6ED9_4_5005_c.jpeg "Code1")
+![code_one](46957E22-D4BB-4CDF-BA33-27A2DD7EE9AF_4_5005_c.jpeg "Code1")
 
 ### Why? 
 "South Korea " is not the same as "South Korea" 
