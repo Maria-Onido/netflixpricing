@@ -43,6 +43,7 @@ After scraping, we needed to so some data cleaning for the data to be interpreta
 1. We split Prices Local into prices and currency codes.
 2. Dropped Brazil after some research as the VAT in the country is very complex.
 3. Cleaned the 'Standard VAt rate %' column by assesing what the value of the VAT rate from the original column and doing some research. 
+!["Code_Four"](5FCB0B27-C053-4931-AA17-50D9712DB4D4_1_201_a.jpeg "Code4")
 
 
 
