@@ -106,3 +106,4 @@ So, if you want to buy a Netflix subscription at a cheaper price than Canada and
 ## Citations
 https://upload.wikimedia.org/wikipedia/commons/7/7a/Logonetflix.png
 https://docs.google.com/document/d/11eFi3iy0TIwzh9KY3BYRP5IhXcS7WRZswExTSKYOz8w/edit - for synopsis
+https://www.netflix.com/ca/ - What is Netflix? 
